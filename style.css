@@ -5,11 +5,37 @@
 }
 
 :root {
-    
+    --Pale_blue: hsl(225, 100%, 94%);
+    --Very_pale_blue: hsl(225, 100%, 98%);
+    --Bright_blue: hsl(245, 75%, 52%);
+    --Desaturated_blue: hsl(224, 23%, 55%);
+    --Dark_blue: hsl(223, 47%, 23%);
 }
 
-body {
-    background: url(/images/pattern-background-desktop.svg);
-    background-repeat: no-repeat;
-    background-size: cover;
+
+
+@media only screen and (max-width: 600px) {
+
+}
+
+main {
+    width: 95%;
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+}
+
+
+.upper-header-pic {
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+
+
+
+
+
+@media only screen and (min-width: 601px) {
+
 }
