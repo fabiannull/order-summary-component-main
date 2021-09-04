@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Red Hat Display', sans-serif;
 }
 
 :root {
@@ -10,31 +11,93 @@
     --Bright_blue: hsl(245, 75%, 52%);
     --Desaturated_blue: hsl(224, 23%, 55%);
     --Dark_blue: hsl(223, 47%, 23%);
+    --button-width: 80%;
+    --upper-radius-pic: 20px 20px 0 0;
+    --main-radius: 20px 20px 20px 20px;
+    
 }
 
-
+/* font-family: 'Red Hat Display', sans-serif; */
 
 @media only screen and (max-width: 600px) {
 
 }
 
-main {
-    width: 95%;
-    max-width: 600px;
-    margin: auto;
-    text-align: center;
+body {
+    background-color: var(--Pale_blue);
 }
 
+main {
+    width: 95%;
+    background-color: white;
+    margin: auto;
+    margin-top: 5vh;
+    text-align: center;
+    border-radius: var(--main-radius);
+
+}
 
 .upper-header-pic {
     width: 100%;
-    border-radius: 20px 20px 0 0;
+    border-radius: var(--upper-radius-pic);
 }
 
+h1 {
+    font-size: 1.5rem;
+    margin: 1.3em auto;
+}
 
+.main-paragraph {
+    width: 80%;
+    margin: auto;
+    color: var(--Desaturated_blue);
+    line-height: 1.5em;
+    margin-bottom: 1.4em;
 
+}
 
+.annual-content {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    background-color: var(--Very_pale_blue);
+    border-radius: 5px;
+    padding: 1.4em;
+    
+}
 
+.annual-pic {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    
+}
+
+.annual-content-plan {
+ width: 40%;
+}
+
+.annual-button {
+    width: 30;
+}
+
+.payment-button {
+    display: block;
+    width: var(--button-width);
+    margin: auto;
+    background-color: var(--Bright_blue);
+    color: var(--Very_pale_blue);
+    text-decoration: none;
+}
+ 
+
+.cancel-button {
+    display: block;
+    width: var(--button-width);
+    margin: auto;
+    
+    color: var(--Desaturated_blue);
+}
 
 @media only screen and (min-width: 601px) {
 
