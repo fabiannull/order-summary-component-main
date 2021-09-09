@@ -13,17 +13,10 @@
     --Dark_blue: hsl(223, 47%, 23%);
     --button-width: 80%;
     --upper-radius-pic: 20px 20px 0 0;
-    --main-radius: 20px 20px 20px 20px;
-    
+    --main-radius: 20px 20px 20px 20px;    
 }
 
 /* font-family: 'Red Hat Display', sans-serif; */
-
-@media only screen and (max-width: 600px) {
-
-}
-
-
 
 body {
     background-color: var(--Pale_blue);
@@ -58,10 +51,8 @@ h1 {
     margin: auto;
     color: var(--Desaturated_blue);
     line-height: 1.5em;
-    margin-bottom: 1.4em;
-    
+    margin-bottom: 1.4em;    
     font-size: 0.9rem;
-
 }
 
 .annual-content {
@@ -71,34 +62,25 @@ h1 {
     margin: auto;
     background-color: var(--Very_pale_blue);
     border-radius: 10px;
-    
-    
 }
 
 .annual-pic {
     width: 27%;
     display: flex;
     align-items: center;
-    justify-content: center;
-    
-    
+    justify-content: center;    
 }
 
 .annual-pic img {
     width: 50%;
-    height: 50%;
-    
+    height: 50%;    
 }
-
 
 .annual-content-plan {
     width: 49%;
     text-align: start;
     display: flex;
-    flex-wrap: wrap;
-    
- 
- 
+    flex-wrap: wrap; 
 }
 
 .annual-content-plan h2 {
@@ -106,9 +88,8 @@ h1 {
     align-self: flex-end;
     width: 100%;
     font-weight: 700;
-
-
 }
+
 .annual-content-plan p {
     width: 100%;
     font-size: 0.9rem;
@@ -119,23 +100,17 @@ h1 {
 .annual-button {
     width: 27%;
     align-self: center;
-    
-    
 }
 
 .annual-button a {
     font-size: 0.8em;
     font-weight: 700;
     color: var(--Bright_blue);
-    
 }
-
-
 
 .annual-button a:hover {
     text-decoration: none;
     color: var(--Desaturated_blue);
-    
 }
 
 .payment-button {
@@ -153,16 +128,12 @@ h1 {
     box-shadow: 0px 20px 10px hsla(245, 75%, 52%, 0.144);
     border-radius: 10px;
     font-size: 0.8rem;
-    
 }
-
-
 
 .payment-button:hover {
     background-color: hsl(256, 55%, 53%);
 }
  
-
 .cancel-button {
     display: block;
     display: flex;
@@ -186,7 +157,9 @@ footer {
     text-align: center;
     margin-top: 2rem;
 }
+
 @media only screen and (min-width: 601px) {
+    
     body {
         background-image: url(/images/pattern-background-desktop.svg);
         background-repeat: no-repeat;
@@ -194,8 +167,7 @@ footer {
         background-position: 0 -400px;
     }
 
-    footer {
-       
+    footer {       
         position: fixed;
         bottom: 0;
         width: 100vw;
@@ -203,6 +175,7 @@ footer {
         justify-content: center; 
         transition: 0.7s ease-in-out;   
     }
+    
     footer p {
         padding-left: 0.3em;
     }
