@@ -37,7 +37,7 @@ main {
     margin-top: 5vh;
     text-align: center;
     border-radius: var(--main-radius);
-
+    box-shadow: -5px 5px 15px hsla(245, 75%, 52%, 0.144) , 5px 5px 15px hsla(245, 75%, 52%, 0.144);
 }
 
 .upper-header-pic {
@@ -126,6 +126,15 @@ h1 {
 .annual-button a {
     font-size: 0.8em;
     font-weight: 700;
+    color: var(--Bright_blue);
+    
+}
+
+
+
+.annual-button a:hover {
+    text-decoration: none;
+    color: var(--Desaturated_blue);
     
 }
 
@@ -148,6 +157,10 @@ h1 {
 }
 
 
+
+.payment-button:hover {
+    background-color: hsl(256, 55%, 53%);
+}
  
 
 .cancel-button {
@@ -165,6 +178,9 @@ h1 {
     font-weight: 700;
 }
 
+.cancel-button:hover {
+    color: rgba(0, 0, 0, 0.836);
+}
 
 footer {
     text-align: center;
@@ -176,6 +192,23 @@ footer {
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 0 -400px;
+    }
+
+    footer {
+       
+        position: fixed;
+        bottom: 0;
+        width: 100vw;
+        display: flex;
+        justify-content: center; 
+        transition: 0.7s ease-in-out;   
+    }
+    footer p {
+        padding-left: 0.3em;
+    }
+
+    footer:hover {
+        transform: scale(1.1);
     }
 
 }
