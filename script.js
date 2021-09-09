@@ -1,3 +1,3 @@
 function alertboxfunction() {
-    alert("test")
+    alert("test");
 }
