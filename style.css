@@ -175,9 +175,10 @@ footer {
         justify-content: center; 
         transition: 0.7s ease-in-out;   
     }
-    
+
     footer p {
         padding-left: 0.3em;
+        
     }
 
     footer:hover {
