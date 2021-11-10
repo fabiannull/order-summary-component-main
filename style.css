@@ -158,6 +158,12 @@ footer {
     margin-top: 2rem;
 }
 
+/* unvisited link */
+footer a:link, footer a:visited, footer a:hover, footer a:active  {
+    color: var(--Dark_blue);
+  }
+ 
+
 @media only screen and (min-width: 601px) {
     
     body {
@@ -169,7 +175,7 @@ footer {
 
     footer {       
         position: fixed;
-        bottom: 0;
+        bottom: 5px;
         width: 100vw;
         display: flex;
         justify-content: center; 
@@ -178,6 +184,7 @@ footer {
 
     footer p {
         padding-left: 0.3em;
+        color: var(--Dark_blue);
         
     }
 
