@@ -1,9 +1,10 @@
-Hey,
-this is a challenge from www.frontendmentor.io.
+# Frontend Mentor - Order summary card solution
+This is a solution to the [Order summary card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-I´m looking for a Job as a Junior-Frontend-Developer. If you can help my i would be happy if you could concent me. My e-mail-adress is linked in the bottom of the summary-component-page.
+### Links
+- Solution URL: (https://www.frontendmentor.io/solutions/order-summary-component-challenge-with-flexbox-RSjXSEKc8)
+- Live Site URL: (https://order-summary-component-main-fm.netlify.app/)
 
-Thank you very much.
-
-Best greetings
-Fabian
+## Author
+- Website - (https://www.fabian-knitter.de) not live now
+- Frontend Mentor - (https://www.frontendmentor.io/profile/fabiannull)
